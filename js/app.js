@@ -19,7 +19,7 @@ const services = [
         duration: "30 min",
         description: "Professional men's haircut with styling",
         tooltip: "Includes consultation, cut, wash, and styling. Perfect for all hair types and lengths.",
-        image: "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=400&h=300&fit=crop",
+        image: "./img/menHaircut.png",
         category: "cut"
     },
     {
@@ -29,7 +29,7 @@ const services = [
         duration: "45 min",
         description: "Stylish women's haircut with consultation",
         tooltip: "Includes style consultation, precision cut, wash, and professional styling. Suitable for all hair lengths.",
-        image: "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=400&h=300&fit=crop",
+        image: "./img/womenHaircut.png",
         category: "cut"
     },
     {
@@ -39,7 +39,7 @@ const services = [
         duration: "20 min",
         description: "Precise beard trimming and shaping",
         tooltip: "Professional beard trimming, shaping, and styling. Includes hot towel treatment.",
-        image: "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=400&h=300&fit=crop",
+        image: "./img/beardTrim.png",
         category: "trim"
     },
     {
@@ -49,7 +49,7 @@ const services = [
         duration: "90 min",
         description: "Full hair coloring service with consultation",
         tooltip: "Complete hair coloring service includes: color consultation, full color application, processing time, wash, and styling. Perfect for full coverage, highlights, or color correction.",
-        image: "https://images.unsplash.com/photo-1560869713-7d563b1e4e46?w=400&h=300&fit=crop&auto=format",
+        image: "./img/hairColor.png",
         category: "color"
     },
     {
@@ -59,7 +59,7 @@ const services = [
         duration: "30 min",
         description: "Hair wash with professional styling",
         tooltip: "Professional shampoo, conditioning treatment, blow-dry, and styling. Great for special occasions or regular maintenance.",
-        image: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=400&h=300&fit=crop",
+        image: "./img/washStyle.png",
         category: "style"
     },
     {
@@ -69,7 +69,7 @@ const services = [
         duration: "45 min",
         description: "Complete grooming package for men",
         tooltip: "Complete grooming package includes: men's haircut, beard trim, hot towel treatment, and styling. Best value for full grooming service.",
-        image: "https://images.unsplash.com/photo-1621605815971-fbc98d665033?w=400&h=300&fit=crop",
+        image: "./img/haircutBeard.png",
         category: "package"
     }
 ];
@@ -82,7 +82,7 @@ const staff = [
         role: "Senior Stylist",
         specialty: "Women's Cuts & Color",
         experience: "10 years",
-        image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=300&h=300&fit=crop",
+        image: "./img/sarahJohnson.png",
         bio: "Specializes in modern cuts and vibrant color techniques"
     },
     {
@@ -91,7 +91,7 @@ const staff = [
         role: "Master Barber",
         specialty: "Men's Grooming",
         experience: "8 years",
-        image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop",
+        image: "./img/michaelChen.png",
         bio: "Expert in classic and contemporary men's styles"
     },
     {
@@ -100,7 +100,7 @@ const staff = [
         role: "Color Specialist",
         specialty: "Hair Coloring",
         experience: "6 years",
-        image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300&h=300&fit=crop",
+        image: "./img/emmaRodriguez.png",
         bio: "Creative colorist with expertise in balayage and highlights"
     },
     {
@@ -109,7 +109,7 @@ const staff = [
         role: "Stylist",
         specialty: "All Services",
         experience: "5 years",
-        image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop",
+        image: "./img/jamesWilson.png",
         bio: "Versatile stylist ready to help with any service"
     }
 ];
